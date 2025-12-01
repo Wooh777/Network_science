@@ -1,0 +1,2 @@
+year,n_nodes,n_trials,coverage_mean,coverage_std,n_isolated_mean,n_isolated_std,avg_degree_mean,avg_degree_std,gcc_ratio_mean,gcc_ratio_std,fuel_type
+2017,1778,50,0.9998650168728909,0.0003124252305194118,0.24,0.5554920598635309,19.379640044994375,0.19655196496852523,1.0,0.0,EV
