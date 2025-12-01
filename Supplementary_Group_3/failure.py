@@ -156,13 +156,14 @@ def compute_metrics(
         metric="haversine"
     ).fit(coords_rad)
     dist_list, idx_list = nbrs_radius.radius_neighbors(coords_rad)
-
+    # 1일때
     # isolated = 0
     # for idx in idx_list:
     #     # 자기 자신 제외
     #     if len(idx) - 1 == 0:
     #         isolated += 1
 
+    # 3일때
     isolated = 0
     for idx in idx_list:
         neighbor_count = len(idx) - 1   # 자기 자신 제외
